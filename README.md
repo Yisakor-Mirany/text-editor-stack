@@ -3,22 +3,38 @@
 ## Objective
 Implement a simple text editor with undo functionality using a stack.
 
+---
+
 ## Approach
 - Use a stack to track operations
 - Add: push operation onto stack
 - Delete: remove last character and store operation
-- Undo: reverse last operation
+- Undo: reverse last operation using stack
+
+---
 
 ## Features
 - Add characters
 - Delete last character
 - Undo previous operations
 
+---
+
+## Flowchart
+
+![Text Editor Flowchart](./flowchart.png)
+
+---
+
 ## Time Complexity
 O(1) for add, delete, and undo
 
+---
+
 ## Space Complexity
 O(n)
+
+---
 
 ## Test Cases
 
@@ -31,3 +47,8 @@ O(n)
 - Undo with no operations
 - Delete on empty text
 - Multiple consecutive undo operations
+
+---
+
+## Author
+Yisakor Mirany
